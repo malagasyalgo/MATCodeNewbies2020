@@ -8,11 +8,11 @@ public int [][] partitionArray(int[] nums) {
     	
     for(int i = 0; i < nums.length; i++) {
     	if(nums[i] % 2 == 0) {
-    		result.get(0).add(nums[i]);
+    	   result.get(0).add(nums[i]);
     	} else if (nums[i] % 3 == 0) {
-    		result.get(1).add(nums[i]);
+    	   result.get(1).add(nums[i]);
     	} else {
-    		result.get(2).add(nums[i]);
+    	   result.get(2).add(nums[i]);
     	}
     }
     return result.stream().map(x -> x.stream().mapToInt(Integer::intValue).toArray()).toArray(int [][]::new);
