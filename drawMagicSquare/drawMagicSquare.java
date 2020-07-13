@@ -7,7 +7,7 @@ public int [][] drawMagicSquare(int [] bottomLeft, int [] topRight) {
     int [] bottomRight = new int [2], topLeft = new int[2];
     	
     	
-    //Compte the missing two points
+    //Compute the missing two points
     bottomRight[0] = topRight[0];
     bottomRight[1] = bottomLeft[1];
     	
