@@ -2,7 +2,7 @@ public int [][] drawMagicSquare(int [] bottomLeft, int [] topRight) {
     //Validate the two points
     int x1 = bottomLeft[0], x2 = topRight[0];
     int y1 = topRight[1], y2 = topRight[1];
-    if(x2 <= x1) return new int[][] {};
+    if(x2 <= x1 || y2 <= y1) return new int[][] {};
     	
     int [] bottomRight = new int [2], topLeft = new int[2];
     	
