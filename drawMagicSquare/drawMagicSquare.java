@@ -1,6 +1,4 @@
-	public int [][] drawMagicSquare(int [] bottomLeft, int [] topRight) {
-    List<List<Integer>> result = new ArrayList<List<Integer>>();
-    	
+public int [][] drawMagicSquare(int [] bottomLeft, int [] topRight) {
     //Validate the two points
     int x1 = bottomLeft[0], x2 = topRight[0];
     int y1 = topRight[1], y2 = topRight[1];
@@ -25,9 +23,9 @@
     return  round(4 * a) == round(a + b + c + d) ? new int [][] {bottomRight, topLeft} : new int[][] {};
 	}
 public double getDistanceEuclidian(int [] point1, int [] point2) {
-	double a = Math.sqrt(Math.pow(point2[0] - point1[0], 2) + Math.pow(point2[1] - point1[1], 2));
-	return round(a);
+    double a = Math.sqrt(Math.pow(point2[0] - point1[0], 2) + Math.pow(point2[1] - point1[1], 2));
+    return round(a);
 }
 public double round(double number) {
-	return Math.round(number * 100.0) / 100.0;
+    return Math.round(number * 100.0) / 100.0;
 }
