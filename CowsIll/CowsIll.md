@@ -6,11 +6,13 @@ It's very unfortunate for Rajao, because Coronavirus now attacks cows as well. W
  
 Given the amount of milk each of Rajao's cows produce in one day, and the days at which some of his cows contracted the virus and got sick. What is the amount of milk Rajao will get in the end?
  
-__Input__ 
+__Input__
+
 `cow`: An array of integers where `cow[i]` is the amount of milk the `i`-th produces in one day. 
 `sickDay`: A matrix of integers where `sickDay[d]` contains the list of the indexes of the cows that contracted the virus on day `d`
  
 __Output__
+
 The total amount of milk Rajao will get at the end of the pandemic
  
 __Example__
