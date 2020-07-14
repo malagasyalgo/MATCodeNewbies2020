@@ -32,3 +32,5 @@ __Example__
   - on day 3, cow[1] and cow[2] got sick as well, so they will not produce milk for the next 3 days including today => Rajao will not get any milk for today then, still 10 liters so far
   - on day 4, it's the third day of sickness of cow[0], and second day of sickness for cow[1] and cow[2], cow[0] will recover tomorrow => Rajao has still 10 liters of milk so far
   - on day 5, it's the third day of sickness of cow[1] and cow[2], so they will still not produce milk. However, cow[0] has fully recovered, and is able to produce milk again => so milk so far = 10 liters from the beginning + 2 liters from cow[0] today, which makes 12 liters in total.
+
+© [lucoram](https://app.codesignal.com/profile/lucoram)

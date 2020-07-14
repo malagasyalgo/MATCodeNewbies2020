@@ -11,3 +11,5 @@ __Example__
 
 *Guaranteed constraints*
 `0 <= n <= 10^5` `0 <= cow[i] <= 10^5` `1 <= d <= 10^5`
+
+© [lucoram](https://app.codesignal.com/profile/lucoram)
