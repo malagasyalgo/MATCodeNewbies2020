@@ -4,7 +4,7 @@ Given an array of integer, write a program which returns, in ascending order, a 
 If the number is both a multiple of 2 and 3, consider it to be a multiple of 2.
 
 __Input__
-- `nums`: An array of integer to partition.
+- `nums`: An array of integer to partition.The array may be empty.
 
 __Output__
 An *array of array of integers* which contains the partition of mulitple of 2 (or 2 and 3), or 3 or neither of them.
