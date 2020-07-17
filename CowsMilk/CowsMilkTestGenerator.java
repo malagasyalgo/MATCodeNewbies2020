@@ -1,7 +1,6 @@
 package MATCodeNewbies2020.CowsMilk;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -59,7 +58,7 @@ public class CowsMilkTestGenerator {
             }
         }
 
-        long result = CowsMilk.cowsMilk(cow.size(), cow.stream().mapToInt(i -> i).toArray(), day);
+        long result = CowsMilk.cowsMilk(cow.stream().mapToInt(i -> i).toArray(), day);
 
         print(result, t);
     }
