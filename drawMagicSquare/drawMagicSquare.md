@@ -17,14 +17,12 @@ An *array of array of integers* which contains, respectively, the top left and b
 __Example__
 
 - For `bottomLeft=[0,0]` and `topRight=[2,2]`, the result should be : `[[2,0], [0,2]]`
-
   *Explanation:*
   - `[2,0]` is the `topleft`coordinate of the square.
   - `[0,2]` is the `bottomRight`coordinate of the square.
 
 - For `bottomLeft=[0,0]` and `topRight=[-1,-1]`, the result should be : `[]`
-
   *Explanation:*
-  the `topRight` is not a valid `topRight` coordinate to form a square.
+  - The `topRight` is not a valid `topRight` coordinate to form a square.
 
 © [ramamj](https://app.codesignal.com/profile/ramamj)
