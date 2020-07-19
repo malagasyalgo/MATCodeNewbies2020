@@ -11,9 +11,11 @@ __Input__
 - `topRight`: An array of integer, which contains the `horizontal axis x` and `vertical axis y`.
 
 __Output__
-An *array of array of integers* which contains the partition of mulitple of 2 (or 2 and 3), or 3 or neither of them.
+
+An *array of array of integers* which contains, respectively, the top left and bottom right points if the square exists.
 
 __Example__
+
 - For `nums=[1, 2, 3, 4, 5, 6, 7, 8]`, the result should be : `[[2, 4, 6, 8], [3], [1, 5, 7]]]`
   *Explanation:*
   - `2`, `4`, and `8` are multiple of `2`
