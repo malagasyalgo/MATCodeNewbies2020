@@ -16,12 +16,13 @@ An *array of array of integers* which contains, respectively, the top left and b
 
 __Example__
 
-- For `nums=[1, 2, 3, 4, 5, 6, 7, 8]`, the result should be : `[[2, 4, 6, 8], [3], [1, 5, 7]]]`
+- For `bottomLeft=[0,0]` and `topRight=[2,2]`, the result should be : `[[2,0], [0,2]]`
   *Explanation:*
-  - `2`, `4`, and `8` are multiple of `2`
-  - `6`, is a multiple of both `2` and `3`, so we consider it to be a multiple of `2`
-  - `1`, `5`, `7` is not a multiple of neither `2` nor `3`
+  - `[2,0]` is the `topleft`coordinate of the square.
+  - `[0,2]` is the `bottomRight`coordinate of the square.
 
-- For `nums=[2, 2, 3, 3]`, the result should be : `[[2, 2], [3, 3], []]]`
+- For `bottomLeft=[0,0]` and `topRight=[-1,-1]`, the result should be : `[]`
+  *Explanation:*
+  the `topRight` is not a valid `topRight` coordinate to form a square.
 
 © [ramamj](https://app.codesignal.com/profile/ramamj)
