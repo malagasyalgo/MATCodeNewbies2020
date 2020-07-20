@@ -9,6 +9,7 @@ __Input__
 *It's guaranteed that an abbreviation matches only one or no expression*
 
 __Output__
+
 An *array of integers* of **size equal** to `abbrList.length` where `output[i]` contains the **index** of the expression that matches the **`i`-th** abbreviation **OR** `-1` if **none** of the expressions match it. Watch the example for more clarity.
 
 __Example__
