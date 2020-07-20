@@ -22,17 +22,17 @@ public class CowsIll {
 
         int[] cow = {2, 3, 1};
 
-        printTest(cow, sickDay, cowsIll(cow, sickDay));
+        // printTest(cow, sickDay, cowsIll(cow, sickDay));
 
-        generateTest(10, 10, 0, 5);
-        generateTest(50, 20, 10, 50);
-        generateTest(100, 100, 0, 100);
-        generateTest(100, 100, 1000, 10000);
+        // generateTest(10, 10, 0, 5);
+        // generateTest(50, 20, 10, 50);
+        // generateTest(100, 100, 0, 100);
+        // generateTest(100, 100, 1000, 10000);
+        generateTest(1000, 100, 10, 100);
         generateTest(10000, 100, 10, 100);
-        generateTest(10000, 1000, 10, 100);
-        generateTest(1000, 1000, 10000, 100000);
-        generateTest(1000, 1000, 10000, 100000);
-        generateTest(1000, 1000, 10000, 100000);
+        generateTest(100, 100, 10000, 100000);
+        generateTest(100, 100, 10000, 100000);
+        generateTest(100, 100, 10000, 100000);
     }
 
     private static void generateTest(int nbCows, int nbDays, int cowMinMilk, int cowMaxMilk) {
@@ -45,7 +45,7 @@ public class CowsIll {
 
     }
 
-    static int t;
+    static int t = 5;
 
     private static void printTest(int[] cow, int[][] sickday, long result) {
 
