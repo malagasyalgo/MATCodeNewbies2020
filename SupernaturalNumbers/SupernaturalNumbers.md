@@ -1,7 +1,9 @@
 *[Bonus]: Arrays, Comparator, Sorting*
 
 Natural numbers (N) are a set of whole numbers starting from 1 upwards (1, 2, 3, ..., +Infinity).
+
 Integers (Z) are a set of *signed* whole numbers and including `0` (-Infinity, ..., -3, -2, -1, 0, 1, 2, 3, ..., +Infinity)
+
 Supernatural numbers (S) are a set of whole numbers where:
  - **all even** numbers are considered **smaller than `0`**, and
  - **all odd** numbers are considered **greater than `0`**, and
