@@ -32,6 +32,10 @@ public class SubstrAdd {
         System.out.println(sAuDbDsItTrIaOcNt(0, 999999999));
         System.out.println(sAuDbDsItTrIaOcNt(999999999, 0));
         System.out.println(sAuDbDsItTrIaOcNt(1000000, 999999));
+        System.out.println(sAuDbDsItTrIaOcNt(5966, 1054));
+        System.out.println(sAuDbDsItTrIaOcNt(795966, 906054));
+        System.out.println(sAuDbDsItTrIaOcNt(8195966, 9106054));
+        System.out.println(sAuDbDsItTrIaOcNt(5066, 6954));
     }
 
     static int sAuDbDsItTrIaOcNt(int a, int b) {
