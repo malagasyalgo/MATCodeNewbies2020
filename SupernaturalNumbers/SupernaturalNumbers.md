@@ -6,7 +6,7 @@ Supernatural numbers (S) are a set of whole numbers where:
  - **all even** numbers are considered **smaller than `0`**, and
  - **all odd** numbers are considered **greater than `0`**, and
  - **The smallest** number is a **negative even** number (-Infinity % 2 == 0),
- - **The greatest** number is a **NEGATIVE odd** number (+Infinity % 2 == 1)
+ - **The greatest** number is a **NEGATIVE odd** number (+Infinity % 2 == -1)
 
 Given a *list* of `numbers`, return **three (3) sets** of numbers where:
 - The first set contains the *found* Natural numbers from the list
