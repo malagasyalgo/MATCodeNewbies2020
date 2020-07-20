@@ -1,3 +1,5 @@
+**PartitionArray**
+
 *[Very Easy]: Arrays, Loops, Conditions*
 
 Given an array of integer, write a program which returns, in ascending order, a partition array for numbers mulitple of 2 or 3 or neither of them.
