@@ -27,6 +27,28 @@ public class TestGenUtils {
     }
 
     public static int numberBetween(int low, int high) {
+
+        if(low == high) {
+            return low;
+        }
+
+        if(low < 0 && high < 0) {
+            high *= -1;
+            low *= -1; 
+            return -1 * rand.nextInt(low - high) + high;
+        }
+
+        if(low < 0 && high > 0) {
+            boolean takeLow = rand.nextInt(2) == 1;
+
+            if(takeLow) {
+                low *= -1;
+                return -1 * rand.nextInt(low);
+            }
+
+            return rand.nextInt(high);
+        }
+
         return rand.nextInt(high - low) + low;
     }
 }
