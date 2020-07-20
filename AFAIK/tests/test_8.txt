@@ -1,0 +1,6 @@
+case_8:
+abbrList : []
+
+expressions : ["You Only Live Once"]
+
+EO : []

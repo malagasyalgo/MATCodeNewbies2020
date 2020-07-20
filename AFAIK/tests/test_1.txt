@@ -1,0 +1,6 @@
+case_1:
+abbrList : ["LMAO", "AFAIK", "LOL", "TLDR"]
+
+expressions : ["As Far As I Know", "Rolling Laughing Out Loud", "Laughing Out Loud", "Be Right Back", "Before Anything Else"]
+
+EO : [-1, 0, 2, -1]

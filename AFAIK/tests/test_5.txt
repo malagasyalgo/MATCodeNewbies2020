@@ -1,0 +1,6 @@
+case_5:
+abbrList : ["ILY", "IDC", "IRL", "JK", "LMS", "ROFLMAO"]
+
+expressions : ["Like My Status", "In Real Life", "Just Kidding", "Be Right Back", "I Love You", "I Dont Care"]
+
+EO : [4, 5, 1, 2, 0, -1]

@@ -1,0 +1,6 @@
+case_3:
+abbrList : ["PM", "AMA", "BTAIM", "IDK", "DYK"]
+
+expressions : ["Military Police", "Private Message", "Ask Me Anything", "Nevermind", "Be That As It May", "I Dont Know"]
+
+EO : [1, 2, 4, 5, -1]

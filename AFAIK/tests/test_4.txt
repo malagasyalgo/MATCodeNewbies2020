@@ -1,0 +1,6 @@
+case_4:
+abbrList : ["DEAK", "ELIF", "FTFY", "GG", "IDC", "LOL", "TLDR"]
+
+expressions : ["As Far As I Know", "Good Game", "Does Anyone Else Know", "Explain Like Im Five", "Fixed That For You"]
+
+EO : [-1, 3, 4, 1, -1, -1, -1]

@@ -1,0 +1,6 @@
+case_2:
+abbrList : ["BRB", "WTF", "NVM", "MOM"]
+
+expressions : ["Minute Of Meeting", "Rolling Laughing Out Loud", "Be Right Back", "In My Humble Opinion", "Before Anything Else"]
+
+EO : [2, -1, -1, 0]

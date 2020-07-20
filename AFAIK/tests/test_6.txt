@@ -1,0 +1,6 @@
+case_6:
+abbrList : ["SMH", "TBH", "TGIF", "ICYMI"]
+
+expressions : ["To Be Brutally Honest", "Shaking My Head", "Just Kidding", "I Love You", "In Case You Missed It"]
+
+EO : [1, -1, -1, 4]
