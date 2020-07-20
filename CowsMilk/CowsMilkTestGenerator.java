@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+import MATCodeNewbies2020._utils.TestGenUtils;
+
 public class CowsMilkTestGenerator {
 
     static int nbTest = 10;
@@ -78,7 +80,7 @@ public class CowsMilkTestGenerator {
 
         for (int i = 1; i <= arrSize; i++) {
 
-            int current = numberBetween(boundaries[0], boundaries[1]);
+            int current = TestGenUtils.numberBetween(boundaries[0], boundaries[1]);
             sb.append(current);
 
             if (i < arrSize) {
@@ -98,23 +100,19 @@ public class CowsMilkTestGenerator {
         int[] boundaries = new int[3];
 
         if (maxSize - arrSize > 60000) {
-            boundaries[0] = numberBetween(0, 50000);
-            boundaries[1] = numberBetween(boundaries[0], 100000);
-            boundaries[2] = numberBetween(1, 100000);
+            boundaries[0] = TestGenUtils.numberBetween(0, 50000);
+            boundaries[1] = TestGenUtils.numberBetween(boundaries[0], 100000);
+            boundaries[2] = TestGenUtils.numberBetween(1, 100000);
         } else if (maxSize - arrSize > 10000) {
-            boundaries[0] = numberBetween(0, 10000);
-            boundaries[1] = numberBetween(boundaries[0], 20000);
-            boundaries[2] = numberBetween(1, 1000);
+            boundaries[0] = TestGenUtils.numberBetween(0, 10000);
+            boundaries[1] = TestGenUtils.numberBetween(boundaries[0], 20000);
+            boundaries[2] = TestGenUtils.numberBetween(1, 1000);
         } else {
-            boundaries[0] = numberBetween(0, 100);
-            boundaries[1] = numberBetween(boundaries[0], 200);
-            boundaries[2] = numberBetween(1, 1000);
+            boundaries[0] = TestGenUtils.numberBetween(0, 100);
+            boundaries[1] = TestGenUtils.numberBetween(boundaries[0], 200);
+            boundaries[2] = TestGenUtils.numberBetween(1, 1000);
         }
 
         return boundaries;
-    }
-
-    public static int numberBetween(int low, int high) {
-        return rand.nextInt(high - low) + low;
     }
 }

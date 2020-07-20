@@ -1,6 +1,6 @@
 __Cows Ill__
 
-*[Easy]: Arrays, Matrix, State Machine*
+*[Easy]: Arrays, 2D Arrays, State Machine*
  
 It's very unfortunate for Rajao, because Coronavirus now attacks cows as well. When a cow is sick, it cannot produce milk for **3 days** *from the day it got the virus.*
  
